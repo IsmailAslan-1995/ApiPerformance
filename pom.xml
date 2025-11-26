@@ -160,6 +160,7 @@
                         <version>${gatling.maven.plugin.verison}</version>
                         <configuration>
                             <runMultipleSimulations>true</runMultipleSimulations>
+                            <simulationClass>performanceTests.halkKatilim.accountList.AccountListLoadTest</simulationClass>
                         </configuration>
                         <executions>
                             <execution>

@@ -13,7 +13,7 @@ public class TestRunner {
     public static void tearDown() {
         String testType = System.getProperty("testType");
         if (testType.equals("api")) {
-            sendEmail();
+            // sendEmail();
         }
     }
 }

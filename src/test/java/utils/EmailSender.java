@@ -37,7 +37,7 @@ public class EmailSender {
     }
     public static void main(String[] args) {
         if (args.length > 0 && "performance".equals(args[0])) {
-            sendEmail();
+            //sendEmail();
         }
     }
 
